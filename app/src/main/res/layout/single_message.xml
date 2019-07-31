@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/leftlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lefttxtmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/chatbubble_from"
+            android:gravity="left"
+            android:padding="12dp"
+            android:text="Left Message"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/leftmsgdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginLeft="4dp"
+            android:layout_gravity="start"
+            android:text="This is message details"
+            android:textColor="#807F7F" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rightlinearlayout"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/righttxtmessage"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:background="@drawable/chatbubble_you"
+            android:padding="12dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Right Message"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/rightmsgdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginRight="4dp"
+            android:gravity="end"
+            android:text="This is message details"
+            android:textColor="#807F7F" />
+    </LinearLayout>
+
+</LinearLayout>

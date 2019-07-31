@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/splash_background1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="F R I E N D    R E Q U E S T S"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/norequests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="You have 0 friend requests"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/requestlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
