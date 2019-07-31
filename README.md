@@ -2,7 +2,7 @@
 
 ##Using Retrofit2
 
-<img src="screenshots/dashboard"/>
-<img src="screenshots/chat"/>
-<img src="screenshots/friendlist"/>
-<img src="screenshots/users"/>
+<img src="screenshots/dashboard.png"/>
+<img src="screenshots/chat.png"/>
+<img src="screenshots/friendlist.png"/>
+<img src="screenshots/users.png"/>
