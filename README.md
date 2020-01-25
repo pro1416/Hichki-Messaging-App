@@ -1,6 +1,6 @@
 # Hichki-Messaging-App
 
-Concepts used: `Retrofit2 fro fetching chat data from API,RecyclerView,ImageButtons,Animations,SharedElementTransition,FloatingActionButton,VectorAsset,CardView,ConstraintLayout and many other basic concepts.`
+Concepts used: `Retrofit2 for fetching chat data from API,RecyclerView,ImageButtons,Animations,SharedElementTransition,FloatingActionButton,VectorAsset,CardView,ConstraintLayout and many other basic concepts.`
 
 ### Screenshots
 
